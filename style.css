@@ -1,0 +1,129 @@
+body{
+	margin: 0px auto;
+	width: 100%;
+}
+nav a{
+	list-style-type: none;
+	float: left;
+	padding-right: 25px;
+	color: #fff;
+	text-shadow: 5px 5px 2px rgb(37, 36, 36);
+}
+/*nav ul{
+    float: right;
+}*/
+nav{
+	float: right;
+    width: 100%;
+    height: 50px;
+    background-color: #523906;
+    position: fixed;
+}
+div{
+    background-color: #62760c;
+}
+.home{
+    background-color: #cdb30c;
+    text-align: center;
+    font-size: 30px;
+    padding: 150px;
+}
+.home img{
+    margin: 20px;
+    width: 300px;
+    height: auto;
+}
+.about{
+    background-image: url('https://cdn.hipwallpaper.com/i/0/0/EPqvQ8.jpg');
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display:table-cell;
+    vertical-align: middle;
+    background-size: cover;
+}
+.about h1,.education h1,.skills h1,.hobbies h1,.contacts h1{
+    font-size: 50px;
+}
+.about p,.contacts p{
+    padding-right: 700px;
+    font-size: 30px;
+}
+.education{
+    /*background-image: url('https://www.thoughtco.com/thmb/aRwtV75jwNGbI6V6tNnimBT-JD4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/173253837-56a18f0c5f9b58b7d0c0a855.jpg');*/
+    /*background-size: cover;*/
+    height: 100vh;
+    width: 100%;
+}
+.education div{
+    float: left;
+    padding: 50px;
+    display: 100%;
+    text-align: centre;
+    margin: 0px;
+}
+.education div img,.skills div img{
+    width: 200px;
+    height: auto;
+}
+.education div h2{
+    font-size: 30px;
+}
+.education div p{
+    font-size: 20px;
+}
+.skills{
+    background-color: #523906;
+    height: 100vh;
+    width: 100%;
+}
+.skills div{
+    float: left;
+    padding: 150px;
+    display: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: #523906;
+    
+}
+.skills div ul li,.hobbies .inner div div p{
+    list-style-type: none;
+    font-size: 20px;
+}
+.hobbies{
+    background-color: #cdb30c;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: 100%;
+    margin: 0px;
+    padding-top: 20px;
+}
+.hobbies .inner{
+    background-color: #cdb30c;
+    /*padding: 50px;*/
+}
+.hobbies .inner div{
+    /*display: 100%;*/
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #cdb30c;
+    float: left;
+    padding: 90px;
+}
+.hobbies .inner div div img{
+    width: 150px;
+    height: auto;
+}
+/*.hobbies div{
+    background-image: url('https://www.iesabroad.org/files/styles/blog_feature/public/blog/images/amueller/2017-10-23/default_featured_image_6.jpg?itok=EucdqXTV');
+}*/
+.contacts{
+    background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding-top: 20px;
+}

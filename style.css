@@ -9,9 +9,6 @@ nav a{
 	color: #fff;
 	text-shadow: 5px 5px 2px rgb(37, 36, 36);
 }
-/*nav ul{
-    float: right;
-}*/
 nav{
 	float: right;
     width: 100%;
@@ -50,8 +47,6 @@ div{
     font-size: 30px;
 }
 .education{
-    /*background-image: url('https://www.thoughtco.com/thmb/aRwtV75jwNGbI6V6tNnimBT-JD4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/173253837-56a18f0c5f9b58b7d0c0a855.jpg');*/
-    /*background-size: cover;*/
     height: 100vh;
     width: 100%;
 }
@@ -101,10 +96,8 @@ div{
 }
 .hobbies .inner{
     background-color: #cdb30c;
-    /*padding: 50px;*/
 }
 .hobbies .inner div{
-    /*display: 100%;*/
     display: table-cell;
     vertical-align: middle;
     background-color: #cdb30c;

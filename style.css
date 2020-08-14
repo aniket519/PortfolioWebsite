@@ -31,7 +31,7 @@ div{
     height: auto;
 }
 .about{
-    background-image: url('about.jpg');
+    background-image: url('https://cdn.hipwallpaper.com/i/0/0/EPqvQ8.jpg');
     color: white;
     height: 100vh;
     width: 100%;
@@ -42,7 +42,7 @@ div{
 .about h1,.education h1,.skills h1,.hobbies h1,.contacts h1{
     font-size: 50px;
 }
-.about p,.contacts p{
+.about p{
     padding-right: 700px;
     font-size: 30px;
 }
@@ -109,11 +109,61 @@ div{
     height: auto;
 }
 .contacts{
-    background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0px;
     padding-top: 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.contacts .inner {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 150px;
+}
+.fa{
+	padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github{
+	background: black;
+	color: white;
+}
+.fa-linkedin{
+	background: #0e76a8;
+	 color: white;
+}
+.fa-google{
+	background-color: #dd4b39;
+	color: white; 
+}
+.fa-whatsapp{
+	background-color: #25d366;
+	color: white;
+}
+.fa-mobile{
+	background-color: #3B5998;
+	color: white;
+}
+.null{
+	background-color: #523906;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #fff;
+	text-align: center;
 }

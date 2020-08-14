@@ -34,7 +34,7 @@ div{
     height: auto;
 }
 .about{
-    background-image: url('https://cdn.hipwallpaper.com/i/0/0/EPqvQ8.jpg');
+    background-image: url('about.jpg');
     color: white;
     height: 100vh;
     width: 100%;
@@ -115,9 +115,6 @@ div{
     width: 150px;
     height: auto;
 }
-/*.hobbies div{
-    background-image: url('https://www.iesabroad.org/files/styles/blog_feature/public/blog/images/amueller/2017-10-23/default_featured_image_6.jpg?itok=EucdqXTV');
-}*/
 .contacts{
     background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     height: 100vh;

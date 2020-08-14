@@ -29,6 +29,7 @@ div{
     margin: 20px;
     width: 300px;
     height: auto;
+    border-radius: 50%;
 }
 .about{
     background-image: url('https://cdn.hipwallpaper.com/i/0/0/EPqvQ8.jpg');
